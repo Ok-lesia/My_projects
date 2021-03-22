@@ -1,0 +1,52 @@
+@import url(reset.css);
+.main-page{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.header {
+    height: 1080px;
+    background-image: url(../img/header_img.jpg);
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.heading{
+    height: 200px;
+    background-color: #E5E000;   
+}
+.main-heading{
+    color: #fff;
+    font-size: 50px;
+    line-height: 175px;
+}
+.navigation{
+    height: 100px;
+    background-color: #E5E000;
+}
+.navigation a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 100px ;
+}
+.about{
+    font-size: 50px;
+    color: #000;
+}
+.about h2{
+    font-weight: bold;
+}
+.footer{
+    height: 200px;
+    background-color: #E5E000;
+    color: #fff;
+    font-size: 50px;
+    line-height: 200px;
+}
+.logo{
+    display: inline;
+}
+.footer p{
+    display: inline;
+} 
