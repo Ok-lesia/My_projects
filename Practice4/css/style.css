@@ -1,0 +1,46 @@
+@import url(reset.css);
+
+.main-header, .footer{
+    padding: 20px;
+    background-color: #FE1A19;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.container{
+    margin: 52px 0;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+   }
+   ul{
+    margin-left: 0; 
+    padding-left: 0; 
+   }
+   h2{
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+   }
+.recipe-item{
+    display: inline-block;
+    padding: 33px 80px 33px 33px;
+    margin-right: 50px;
+    border: 5px solid #E5E000;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.footer p{
+    display: inline-block;
+}
+.footer a{
+    display: inline-block;
+    margin-left: 65%;
+    text-decoration: none;
+    color: #FFFFFF;
+}

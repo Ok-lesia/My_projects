@@ -13,6 +13,9 @@
     height: 200px;
     background-color: #E5E000;   
 }
+.heading, .navigation, .footer{
+ padding: 0 80px;
+}
 .main-heading{
     color: #fff;
     font-size: 50px;
@@ -31,6 +34,7 @@
     line-height: 100px ;
 }
 .about{
+    padding: 100px 80px;
     font-size: 50px;
     color: #000;
 }
@@ -49,4 +53,5 @@
 }
 .footer p{
     display: inline;
+    margin-left: 461px;
 } 
