@@ -44,14 +44,12 @@
 .footer{
     height: 200px;
     background-color: #E5E000;
+    background-image: url(../img/logo_mcs.png);
+    background-repeat: no-repeat;
+    background-position: center left 80px;
     color: #fff;
     font-size: 50px;
     line-height: 200px;
+    text-align: right;
 }
-.logo{
-    display: inline;
-}
-.footer p{
-    display: inline;
-    margin-left: 461px;
-} 
+
