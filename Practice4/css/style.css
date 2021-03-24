@@ -26,21 +26,29 @@ li{
     font-weight: bold;
     font-size: 20px;
    }
-.recipe-item{
+.recipe{
     display: inline-block;
-    padding: 33px 80px 33px 33px;
-    margin-right: 50px;
+    width: 400px;
+    padding: 33px;
     border: 5px solid #E5E000;
     border-radius: 30px;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
 }
-.footer p{
+.recipe .recipe-item{
+    margin-bottom: 20px;
+}
+.container .recipe:nth-child(2){
+    margin: 0 50px;
+}
+.footer h3{
     display: inline-block;
 }
 .footer a{
+    position: absolute;
+    right: 0px;
+    margin-right: 50px;
     display: inline-block;
-    margin-left: 65%;
     text-decoration: none;
     color: #FFFFFF;
 }
