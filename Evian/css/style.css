@@ -53,6 +53,7 @@ body{
 }
 .product-description, .product-composition{
     padding: 24px;
+    min-width: 80ch;
     border: 3px solid #F8BFC7;
     border-radius: 20px;
 }
